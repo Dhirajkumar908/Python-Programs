@@ -1,0 +1,25 @@
+import turtle
+sape=turtle.Turtle()
+hart=turtle.Turtle()
+screen=turtle.Screen()
+sape = turtle.Pen()
+screen.bgcolor("white")
+sape.speed(50)
+sape.color('green')
+for i in range(18):
+    sape.right(20)
+    sape.circle(100)
+    
+sape.right(20)
+
+hart.color("red")
+hart.begin_fill()
+hart.fillcolor("red")
+hart.left(140)
+hart.forward(180)
+hart.circle(-90,200)
+hart.setheading(60)
+hart.circle(-90,200)
+hart.forward(180)
+hart.end_fill()
+hart.hideturtle()
